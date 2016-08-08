@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Calculator</title>
+	  <script type = "text/javaScript">
+	  
+	  var a, b;
+	  function setValues()
+	  {
+	    a = Number(document.getElementById["a"].value);
+		b = Number(document.getElementById["b"].value);
+	  
+	  }
+	function sum()
+	{
+	setValues();
+	result = a+b;
+	alert("The sum is equals to"+result);
+	}
+	
+	function rest()
+	{
+	setValues();
+	result = a+b;
+	alert("The rest is equals to"+result);
+	}
+	
+	function multiply()
+	{
+	setValues();
+	result = a*b;
+	alert("The operation is equals to"+result);
+	}
+	
+	function div()
+	{
+	setValues();
+	result = a/b;
+	alert("The operation is equals to"+result);
+	}
+	  </script>
+</head>
+<body>
+		<div>
+		<input id = "a" type= "text"/>
+		<input id = "b" type= "text"/>
+		<input type= "button" onclick= "sum[]" value = "sum"/>
+		<input type= "button" onclick= "rest[]" value = "rest"/>
+		<input type= "button" onclick= "multi[]" value = "multiply"/>
+		<input type= "button" onclick= "div[]" value = "divide"/>
+		</div>
+</body>
+</html>		
